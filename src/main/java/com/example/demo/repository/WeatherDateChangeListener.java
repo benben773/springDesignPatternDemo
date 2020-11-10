@@ -8,16 +8,20 @@ import org.springframework.stereotype.Component;
  * @date ：Created in 2020/11/10 7:52
  */
 @Component
-public class SeedingMachine implements ApplicationListener<WeatherData> {
+public class WeatherDateChangeListener implements ApplicationListener<WeatherData> {
     private boolean isOpen;
     public boolean getStatus() {
         return isOpen;
     }
 
+    public void start() {
+        isOpen = true;
+    }
+
     @Override
     public void onApplicationEvent(WeatherData weatherData) {
         if (weatherData.getTemp() > 5) {
-            this.isOpen= true;
+            this.start();
         }
     }
 }
