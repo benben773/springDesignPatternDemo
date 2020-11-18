@@ -1,9 +1,8 @@
-package com.example.demo.repository;
+package com.example.demo.domain.bo;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
 /**

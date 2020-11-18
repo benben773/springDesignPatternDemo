@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.demo.domain.po;
 
 import org.springframework.stereotype.Component;
 
@@ -9,11 +9,10 @@ import java.awt.print.Book;
  * @date ：Created in 2020/11/2 7:06
  */
 @Component
-public class BookRepository implements IBookRepository{
-
+public class WebBookRepository implements IBookRepository {
     @Override
     public Long count() {
-        return 1L;
+        return 2L;
     }
 
     @Override
@@ -23,6 +22,6 @@ public class BookRepository implements IBookRepository{
 
     @Override
     public String defindeType() {
-        return "type1";
+        return "type2";
     }
 }

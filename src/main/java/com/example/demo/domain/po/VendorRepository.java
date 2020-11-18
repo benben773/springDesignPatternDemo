@@ -1,8 +1,7 @@
-package com.example.demo.repository;
+package com.example.demo.domain.po;
 
 import com.example.demo.domain.Vendor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 /**

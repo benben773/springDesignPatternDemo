@@ -1,9 +1,7 @@
-package com.example.demo.repository;
+package com.example.demo.domain.po;
 
 import com.example.demo.domain.Vendor;
 import org.springframework.stereotype.Component;
-
-import java.util.function.DoubleToIntFunction;
 
 /**
  * @author ：ls05

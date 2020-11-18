@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.demo.domain.bo;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;

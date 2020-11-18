@@ -1,7 +1,7 @@
 package com.example.demo;
 
-import com.example.demo.repository.SeedingMachine;
-import com.example.demo.repository.WeatherData;
+import com.example.demo.domain.bo.SeedingMachine;
+import com.example.demo.domain.bo.WeatherData;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
