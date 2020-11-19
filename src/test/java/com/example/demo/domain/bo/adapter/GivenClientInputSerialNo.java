@@ -3,9 +3,7 @@ package com.example.demo.domain.bo.adapter;
 import com.example.demo.domain.MyInputBo;
 import com.example.demo.domain.to.DemoDto;
 import org.junit.Before;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
 import org.mapstruct.factory.Mappers;
 
 import static org.junit.Assert.assertEquals;
